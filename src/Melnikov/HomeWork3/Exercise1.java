@@ -33,7 +33,7 @@ public class Exercise1 {
 
         char c1 = 'Ж';
         char c2 = 1110;
-        char c3 = '\u2743';
+        char c3 = '❃';//2743
 
         System.out.println(b1);
         System.out.println(b2);
