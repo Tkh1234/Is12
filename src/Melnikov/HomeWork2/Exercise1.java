@@ -1,4 +1,4 @@
-package Melnikov.Homework2;
+package Melnikov.HomeWork2;
 
 import java.util.Scanner;
 
