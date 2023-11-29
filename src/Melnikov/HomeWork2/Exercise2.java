@@ -1,0 +1,95 @@
+package Melnikov.HomeWork2;
+
+import java.util.Scanner;
+
+public class Exercise2 {
+    public static void main(String[] args) {
+
+        final double PI = 3.1415926;
+        Scanner input = new Scanner(System.in);
+        System.out.println("Привет! Как тебя зовут. ");
+        String firstName = input.nextLine();
+        System.out.println( firstName + ", приятно познакомиться! \nСколько тебе лет?");
+        int age = input.nextInt();
+        System.out.println("Через 10 лет тебе будет"+ (age + 10));
+        System.out.println("Круто! Давай рассчитаем площадь круга. Введи диаметр круга: ");
+        double d = input.nextDouble();
+        double area = 1.0 / 4.0 * PI * d*d ;
+        System.out.println("Площадь круга: "+ area);
+        System.out.println("Неплохо, да. Теперь давай переведем бит в байт. Введи бит: ");
+        int bi = input.nextInt();
+        double ad = bi / 8.0;
+        System.out.println("Ответ: " + ad);
+        System.out.println("Ура! Дальше посмотрим что делает тип byte");
+        byte a = 30;
+        byte b = 40;
+        byte c = (byte) (a+b);
+        System.out.println("Он вычисляет целые числа в диапозоне от - 128 до 127. Были произведены вычесление 30 + 40. Ответ:" + c);
+        System.out.println("Введи число для умнажения на 20: ");
+        short da = input.nextShort();
+        int aq = da * 20;
+        System.out.println("Получился ответ: " + aq);
+        System.out.println("Переведем из гигабайт в мегабайты. Введи гигабайты: ");
+        long qq = input.nextLong();
+        long qw = qq * 1024;
+        System.out.println("мегабайты: "+ qw);
+        System.out.println("Найдем площадь квадрата по длине диагонали. Введи число: ");
+        double skd = input.nextDouble();
+        double sk = (double) 1/2*skd*skd;
+        System.out.println("Площадь квадрата: "+ sk);
+        System.out.println("Переведем из байт в килобайты. Введи байты: ");
+        double ba = input.nextDouble();
+        double bak = ba / 1024;
+        System.out.println("Килобайты: " + bak);
+        System.out.println("Переведем из килобайт в мегабайты. Введи килобайты: ");
+        double ki = input.nextDouble();
+        double kim = ki / 1024;
+        System.out.println("Магабайты: " + kim);
+        System.out.println("Переведем из мегабайт в килобайты. Введи мегабайты: ");
+        double me = input.nextDouble();
+        double mek = me * 1024;
+        System.out.println("Килобайты: " + mek);
+        System.out.println("Переведем из килобайт в байты. Введи килобайты: ");
+        double kil = input.nextDouble();
+        double kib = kil * 1024;
+        System.out.println("Байты: " + kib);
+        System.out.println("Переведем из байт в биты. Введи байты: ");
+        double bab = input.nextDouble();
+        double baq = bab * 8;
+        System.out.println("Бит: " + baq);
+        System.out.println("Переведем из бит в килоБИТЫ. Введи биты: ");
+        double bit = input.nextDouble();
+        double kB = bit / 1024;
+        System.out.println("КилоБИТЫ: " + kB);
+        System.out.println("Переведем из килоБИТ в мегаБИТЫ. Введи килоБИТЫ: ");
+        double kiB = input.nextDouble();
+        double mB = kiB / 1024;
+        System.out.println("МегаБИТЫ: " + mB);
+        System.out.println("Переведем из килобайт в килобиты. Введи килобайт: ");
+        double kl = input.nextDouble();
+        double klb = kl * 8;
+        System.out.println("Килобиты: " + klb);
+        System.out.println("Переведем из килобит в мегабиты. Введи килобит: ");
+        double klt = input.nextDouble();
+        double m = klt * 8;
+        System.out.println("Мегабиты: " + m);
+        System.out.println("Вычислим площадь квадрата по длине стороны. Введи длину стороны: ");
+        double s = input.nextDouble();
+        double sks = s*s;
+        System.out.println("Площадь квадрата: " + sks);
+        System.out.println("Возведем число в 5 степень. Введи число: ");
+        double st = input.nextDouble();
+        double ste = st * st * st * st * st;
+        System.out.println("Число в 5 степени = " + ste);
+        System.out.println("Деление числа на 3. Введи число: ");
+        double de = input.nextDouble();
+        double del = de/3.0;
+        System.out.println("Ответ: " + del);
+        System.out.println("Возведем число в 3 степень. Введи число: ");
+        double se = input.nextDouble();
+        double sse = se * se * se;
+        System.out.println("Число в 3 степени = " + sse);
+        System.out.println("Пока!");
+
+    }
+}
