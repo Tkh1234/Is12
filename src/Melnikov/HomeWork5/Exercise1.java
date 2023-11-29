@@ -8,7 +8,7 @@ public class Exercise1 {
         double d2 = 1.3;
         long l = 20l;
         double result = 0;
-        result = i2/d1+d2%i1-l;
+        result = i2 / d1 + d2 % i1 - l;
         System.out.println(result);
 
         int a = 5;
